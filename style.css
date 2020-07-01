@@ -1,10 +1,9 @@
 body{
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
 }
 .color-highlight{
     color: palevioletred;
@@ -12,15 +11,11 @@ h1{
 }
 p{
     color: dimgray;
-    font-size: 20px;
+    font-size: 18px;
 }
 h2{
     color: black;
     font-size: 40px;
-}
-h5{
-    color: black;
-    font-size: 20px;
 }
 .half-width{
     width: 45%;
@@ -33,7 +28,6 @@ h5{
 .top-banner{
     background-image: url("image/header-bg.png");
     background-repeat: no-repeat;
-    
 }
 section{
     height: 700px;
@@ -41,10 +35,9 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(90deg, rgb(236, 175, 150), rgb(228, 11, 130));
-    background-color: orange;
+    background-image: linear-gradient(45deg, #ec4f8f, #ed4b72);
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 5px;
     color: white;
 }
@@ -63,21 +56,62 @@ section{
     text-align: center;
 }
 .work-img{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 50%;
+    background-color: white;
     width: 460px;
-    padding: 10px;
+    margin: 15px;
+    padding: 1px;
 }
 .footer{
     background-image: url("image/footer-bg.png");
     background-repeat: no-repeat;
 }
-
-
 .footer-more{
     text-align: center;
 margin: 5px 30px 20px 30px;
-
+}
+.client-section {
+    text-align: center;
+    background-image: url(image/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
+.client-testimonial {
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
+
+.client-testimonial h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.client-testimonial span {
+    font-size: 14px;
+    color: dimgray;
+}
+.client-testimonial p{
+color: #333;
+font-size: 23px;
+font-weight: 500;
+width: 60%;
+margin: auto;
+padding-top: 4%;
+}
+.message-me {
+    background-image: linear-gradient(45deg, #ec4f8f, #ed4b72);
+    box-shadow: 3px 3px 13px rgb(202, 201, 201);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 50px;
+    border-radius: 10px;
+    color: white;
+}
 .contact-me {
     background: linear-gradient(90deg, rgb(236, 150, 183), rgb(230, 64, 64));;
     width: 50%;
@@ -87,11 +121,12 @@ margin: 5px 30px 20px 30px;
     color: white;
     font-size: 25px;
 }
-.mail{
+.message-me p{
     color: white;
-    font-size: 40px;
+    font-size: 25px;
 }
-
 footer p{
     text-align: center;
+    background-color: rgb(248, 246, 246);
+    padding: 20px;
 }
