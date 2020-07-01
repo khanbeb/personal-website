@@ -1,0 +1,90 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.color-highlight{
+    color: palevioletred;
+    font-family: 'Paytone One', sans-serif;
+}
+p{
+    color: dimgray;
+    font-size: 20px;
+}
+h2{
+    color: black;
+    font-size: 40px;
+}
+h5{
+    color: black;
+    font-size: 20px;
+}
+.half-width{
+    width: 28%;
+    float: left;
+    margin: 1px;
+    padding: 280px 100px 100px 300px;
+}
+
+.half-width img{
+    width: 100%;
+    float: right;
+    margin: 1px;
+    padding: 2px 100px 100px 300px;
+}
+.top-banner{
+    background-image: url("image/header-bg.png");
+    background-image: no-repeat;
+    
+}
+section{
+    height: 1000px;
+    padding-bottom: 10px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(236, 175, 150), rgb(228, 11, 130));
+    background-color: orange;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+}
+.biography{
+    background-image: url("image/biography-bg.png");
+    background-image: no-repeat;
+}
+.my-work{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.work-img{
+    width: 500px;
+    margin: 20px;
+}
+.footer{
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
+
+.footer-more{
+    text-align: center;
+margin: 5px 30px 20px 30px;
+padding: 5% 35% 10% 35%;
+}
+
+.btn{
+    width: 100%;
+    background-image: linear-gradient(rgb(236, 150, 183), rgb(230, 64, 64));
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    padding: 2px;
+}
